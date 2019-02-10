@@ -4,6 +4,10 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (snake "snake.cpp" "snake.h")
+add_executable (snake "main.cpp" "snake.cpp" "snake.hpp")
+
+
+target_link_libraries(snake PRIVATE SDL2::SDL2 SDL2::SDL2main)
+
 
 # TODO: Add tests and install targets if needed.
