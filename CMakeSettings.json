@@ -15,7 +15,6 @@
       "environments": [
         {
           "SDL2DIR": "C:\\Users\\Navin Mohan\\Downloads\\SDL2\\",
-          "SDL2IMAGEDIR": "C:\\Users\\Navin Mohan\\Downloads\\SDL2_image\\",
           "SDLTTFDIR": "C:\\Users\\Navin Mohan\\Downloads\\SDL2_ttf\\"
         }
       ],
@@ -23,10 +22,6 @@
         {
           "name": "SDL2_DIR",
           "value": "C:\\Users\\Navin Mohan\\Downloads\\SDL2\\"
-        },
-        {
-          "name": "SDL2_IMAGE_DIR",
-          "value": "C:\\Users\\Navin Mohan\\Downloads\\SDL2_image\\"
         },
         {
           "name": "SDLTTFDIR",
