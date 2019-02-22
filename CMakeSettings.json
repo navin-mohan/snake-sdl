@@ -12,14 +12,25 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
+      "environments": [
+        {
+          "SDL2DIR": "C:\\Users\\Navin Mohan\\Downloads\\SDL2\\",
+          "SDL2IMAGEDIR": "C:\\Users\\Navin Mohan\\Downloads\\SDL2_image\\",
+          "SDLTTFDIR": "C:\\Users\\Navin Mohan\\Downloads\\SDL2_ttf\\"
+        }
+      ],
       "variables": [
         {
-          "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "C:\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+          "name": "SDL2_DIR",
+          "value": "C:\\Users\\Navin Mohan\\Downloads\\SDL2\\"
         },
         {
-          "name": "VCPKG_TARGET_TRIPLET",
-          "value": "x64-windows"
+          "name": "SDL2_IMAGE_DIR",
+          "value": "C:\\Users\\Navin Mohan\\Downloads\\SDL2_image\\"
+        },
+        {
+          "name": "SDLTTFDIR",
+          "value": "C:\\Users\\Navin Mohan\\Downloads\\SDL2_ttf\\"
         }
       ]
     }
